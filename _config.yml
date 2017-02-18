@@ -91,4 +91,3 @@ backup:
   type: git
   repository:
     github: git@github.com:sky8chi/blog.git,backup
-    gitcafe: git@github.com:sky8chi/blog.git,backup

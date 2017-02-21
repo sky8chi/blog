@@ -90,4 +90,4 @@ deploy:
 backup:
   type: git
   repository:
-    github: git@github.com:sky8chi/blog.git,backup
+    origin: git@github.com:sky8chi/blog.git,backup

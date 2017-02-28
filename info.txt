@@ -1,0 +1,14 @@
+#要运行gulp任务，只需切换到存放gulpfile.js文件的目录，然后在终端中执行gulp命令就行了，gulp后面可以加上要执行的任务名，例如gulp task1，如果没有指定任务名，则会执行任务名为default的默认任务。
+
+gulp
+
+#生成静态文件
+hexo g
+#备份静态文件
+hexo d
+#搜索
+hexo algolia
+#备份原始文件
+hexo b
+#启动服务
+hexo s

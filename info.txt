@@ -10,5 +10,7 @@ hexo d
 hexo algolia
 #备份原始文件
 hexo b
+或
+git push origin backup
 #启动服务
 hexo s

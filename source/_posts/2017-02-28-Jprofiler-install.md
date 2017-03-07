@@ -27,7 +27,7 @@ linux  [\[download\]](http://download-keycdn.ej-technologies.com/jprofiler/jprof
 
 ## 安装
 ### linux
-```
+```Bash
 tar -zxvf jprofiler_linux_9_2_1.tar.gz
 mv jprofiler9 /data/install/
 cd /data/install/jprofiler9

@@ -91,13 +91,16 @@
 
 
 
+<meta name="description" content="前言顾名思义: 适配器就是将原本因接口不匹配而导致不能工作的两个类能正常工作">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Adapter(适配器)">
 <meta property="og:url" content="http://blog.chitianxiang.com/2017/02/21/Adapter/index.html">
 <meta property="og:site_name" content="封存遥远的记忆">
-<meta property="og:updated_time" content="2017-02-22T01:23:44.607Z">
+<meta property="og:description" content="前言顾名思义: 适配器就是将原本因接口不匹配而导致不能工作的两个类能正常工作">
+<meta property="og:updated_time" content="2017-03-03T05:58:34.668Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Adapter(适配器)">
+<meta name="twitter:description" content="前言顾名思义: 适配器就是将原本因接口不匹配而导致不能工作的两个类能正常工作">
 
 
 
@@ -432,7 +435,9 @@
       
 
       
-        <a id="more"></a>
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>顾名思义: 适配器就是将原本因接口不匹配而导致不能工作的两个类能正常工作</p>
+<a id="more"></a>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/bash</span></div><div class="line"></div><div class="line"><span class="comment">###### CONFIG</span></div><div class="line">ACCEPTED_HOSTS=<span class="string">"/root/.hag_accepted.conf"</span></div><div class="line">BE_VERBOSE=<span class="literal">false</span></div><div class="line"></div><div class="line"><span class="keyword">if</span> [ <span class="string">"<span class="variable">$UID</span>"</span> <span class="_">-ne</span> 0 ]</div><div class="line"><span class="keyword">then</span></div><div class="line"> <span class="built_in">echo</span> <span class="string">"Superuser rights required"</span></div><div class="line"> <span class="built_in">exit</span> 2</div><div class="line"><span class="keyword">fi</span></div><div class="line"></div><div class="line"><span class="function"><span class="title">genApacheConf</span></span>()&#123;</div><div class="line"> <span class="built_in">echo</span> <span class="_">-e</span> <span class="string">"# Host <span class="variable">$&#123;HOME_DIR&#125;</span><span class="variable">$1</span>/<span class="variable">$2</span> :"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
 
       
     </div>
@@ -550,8 +555,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -564,7 +578,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">8</span>
+                <span class="site-state-item-count">9</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -573,7 +587,7 @@
           
             <div class="site-state-item site-state-categories">
               <a href="/categories">
-                <span class="site-state-item-count">11</span>
+                <span class="site-state-item-count">13</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -582,7 +596,7 @@
           
             <div class="site-state-item site-state-tags">
               <a href="/tags">
-                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-count">7</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
@@ -608,6 +622,22 @@
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
 
     </div>
   </aside>
@@ -629,17 +659,6 @@
   <span class="author" itemprop="copyrightHolder">sky8chi@gmail.com</span>
 </div>
 
-
-<div class="powered-by">
-  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
-</div>
-
-<div class="theme-info">
-  主题 -
-  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
-  </a>
-</div>
 
 
         
